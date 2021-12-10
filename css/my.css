@@ -1,0 +1,76 @@
+/* Here is your custom css styles. */
+/* Here is your custom css styles. */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 2em;
+    /* background-color: rgba(73, 177, 245, .2); */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255 255 255 / .3);
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+    border-radius: 2em
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent
+}
+
+
+/*加入卡片星星背景图片 可以自己选*/
+
+.card {
+  	 background: url() top;
+    border-radius: 25px; 
+    box-shadow: 0 15px 35px rgba(42, 89, 165, .1), 0 5px 15px rgba(71, 159, 188, .1) !important;
+}
+
+/* 打字机效果渐变 -bynote.cn*/
+
+#subtitle {
+    background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#subtitle:before {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* 头部打字颜色 */
+  
+#subtitle:before {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+/* 鼠标指针 */ 
+/* body {   #5e616d 
+    color: #5e616d;   */
+body {   
+    color: #2b1216;   
+    cursor: url(https://cdn.jsdelivr.net/gh/ymwy/CDN/medias/cursor/01.cur),auto;   
+    background-color: @theme_background;
+}
+
+a:hover, a:focus, a:active, a.active {
+    cursor: url(https://cdn.jsdelivr.net/gh/ymwy/CDN/medias/cursor/14.cur),auto;   
+    background-color: @theme_background;
+}
+
+
