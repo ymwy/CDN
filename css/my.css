@@ -64,12 +64,12 @@
     color: #5e616d;   */
 body {   
     color: #2b1216;   
-    cursor: url(/medias/cursor/01.cur),auto;   
+    cursor: url(/https://cdn.jsdelivr.net/gh/ymwy/CDN/medias/cursor/01.cur),auto;   
     background-color: @theme_background;
 }
 
 a:hover, a:focus, a:active, a.active {
-    cursor: url(/medias/cursor/14.cur),auto;   
+    cursor: url(https://cdn.jsdelivr.net/gh/ymwy/CDN/medias/cursor/14.cur),auto;   
     background-color: @theme_background;
 }
 
